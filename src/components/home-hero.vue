@@ -5,22 +5,21 @@
     <div class="info-section  flex flex-col  justify-center px-10 text-white">
       <div class="background-holder">&nbsp;</div>
       <div class="relative text-6xl m-auto my-0 md:ml-auto md:mr-0 md:text-right font-bold">
-        <img src="../assets/Go-Logo/PNG/Go-Logo_White.png" alt="" class="relative w-32 md:w-64 ml-auto " />
+        <img src="../assets/Go-Logo/SVG/go-mauritius.svg" alt="" class="relative w-32 md:w-64 ml-auto " />
       </div>
-      <p class="relative text-xl md:text-2xl text-center md:text-right py-5">
-        Join us for "Go: All you ever wanted to know but didn't dare to ask"
-      </p>
+      <p class="relative text-xl md:text-2xl text-center md:text-right py-5">Join us for <em>"Go: All you ever wanted to know but didn't dare to ask"</em></p>
+      <!-- <p class="relative text-right text-white text-2xl font-bold">21st December 2019</p> -->
       <div class="relative countdown">
-        <div class="slot">12</div>
-        <div class="slot">2</div>
-        <div class="slot">34</div>
-        <div class="slot">43</div>
+        <div class="slot">SAT</div>
+        <div class="slot">21</div>
+        <div class="slot">DEC</div>
+        <div class="slot">2019</div>
       </div>
       <div class="relative countdown p-0">
-        <div class="slot-labels">days</div>
-        <div class="slot-labels">hours</div>
-        <div class="slot-labels">minutes</div>
-        <div class="slot-labels">seconds</div>
+        <div class="slot-labels">day</div>
+        <div class="slot-labels">date</div>
+        <div class="slot-labels">month</div>
+        <div class="slot-labels">year</div>
       </div>
       <a href="#upcoming-event" class="relative bg-red-500 px-4 py-2 text-white w-32 text-center rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer uppercase">
         more info

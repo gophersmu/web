@@ -13,7 +13,7 @@
               >
               <br /><strong class="text-xl uppercase">Saturday 21st December 2019</strong>
             </p>
-            <p class="text-gray-600 text-sm">The event has been organized with the collaboration of <a href="https://www.meetup.com/GDG-Mauritius/events/266919961/">GDG Mauritius</a>.</p>
+            <p class="text-gray-600 text-sm">The event has been organized with the collaboration of <a href="https://www.meetup.com/GDG-Mauritius/events/266919961/" target="_blank">GDG Mauritius</a>.</p>
           </div>
           <div class="lg:w-1/2">
             <p>Our agenda is as follows:</p>
@@ -25,7 +25,7 @@
               <li>Devops using go</li>
             </ol>
             <p><strong>Format:</strong> Hands on informal workshop-style; bring your own laptop.</p>
-            <p><strong>Special Guest:</strong> <a href="https://twitter.com/nataliepis">Natalie Pistunovich</a>, GDE for Go</p>
+            <p><strong>Special Guest:</strong> <a target="_blank" href="https://twitter.com/nataliepis">Natalie Pistunovich</a>, GDE for Go</p>
             <p>The invitation is open to everyone, but registration is mandatory.</p>
             <a class="relative bg-red-500 px-4 py-2 text-white w-32 rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer" href="https://www.meetup.com/GDG-Mauritius/events/266919961/">More info on the event here</a>
           </div>
