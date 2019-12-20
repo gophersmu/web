@@ -18,11 +18,11 @@
           <div class="lg:w-1/2">
             <p>Our agenda is as follows:</p>
             <ol>
-              <li>Keynote (introduction to golang - short presentation)</li>
-              <li>First steps with go</li>
+              <li>Keynote (Intro to Go - short presentation)</li>
+              <li>First steps with Go</li>
               <li>Building web APIs</li>
               <li>Going serverless</li>
-              <li>Devops using go</li>
+              <li>Devops using Go</li>
             </ol>
             <p><strong>Format:</strong> Hands on informal workshop-style; bring your own laptop.</p>
             <p><strong>Special Guest:</strong> <a target="_blank" href="https://twitter.com/nataliepis">Natalie Pistunovich</a>, GDE for Go</p>
@@ -37,7 +37,7 @@
         <h1 id="about-us">About Us</h1>
         <p>Go is an open source programming language supported by Google.</p>
         <p>The language makes it easy to build simple, reliable, and efficient software.</p>
-        <p>We are gophers (Go developers) from the paradise island of Mauritius. A tiny island in the indian ocean with loads of sunshine and equally bright minds.</p>
+        <p>We are gophers (Go developers) from the paradise island of Mauritius. A tiny island in the Indian Ocean with loads of sunshine and equally bright minds.</p>
         <p>Our fellowship is a new one, initiated with developers who fell in love with Go and have used it professionally. We look forward to sharing our experience with more people; hoping we can make friends to learn and laugh along the way.</p>
       </div>
     </div>
