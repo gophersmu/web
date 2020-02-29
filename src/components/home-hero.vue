@@ -5,15 +5,15 @@
     <div class="info-section  flex flex-col  justify-center px-10 text-white">
       <div class="background-holder">&nbsp;</div>
       <div class="relative text-6xl m-auto my-0 md:ml-auto md:mr-0 md:text-right font-bold">
-        <img src="../assets/Go-Logo/SVG/go-mauritius.svg" alt="" class="relative w-32 md:w-64 ml-auto " />
+        <img src="../assets/gophersmu.svg" alt="" class="relative w-32 md:w-64 ml-auto " />
       </div>
-      <p class="relative text-xl md:text-2xl text-center md:text-right py-5">Join us for <em>"Go: All you ever wanted to know but didn't dare to ask"</em></p>
+      <p class="relative text-xl md:text-2xl text-center md:text-right py-5">Join us for <strong>&quot;Hands on GoLang&quot;</strong></p>
       <!-- <p class="relative text-right text-white text-2xl font-bold">21st December 2019</p> -->
       <div class="relative countdown">
         <div class="slot">SAT</div>
-        <div class="slot">21</div>
-        <div class="slot">DEC</div>
-        <div class="slot">2019</div>
+        <div class="slot">07</div>
+        <div class="slot">MAR</div>
+        <div class="slot">2020</div>
       </div>
       <div class="relative countdown p-0">
         <div class="slot-labels">day</div>
