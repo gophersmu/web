@@ -9,9 +9,9 @@
       </div>
       <p class="relative text-xl md:text-2xl text-center md:text-right py-5">Join us for <strong>&quot;Hands on GoLang&quot;</strong></p>
       <!-- <p class="relative text-right text-white text-2xl font-bold">21st December 2019</p> -->
-      <!-- <div class="relative countdown">
+      <div class="relative countdown">
         <div class="slot">SAT</div>
-        <div class="slot">07</div>
+        <div class="slot">28</div>
         <div class="slot">MAR</div>
         <div class="slot">2020</div>
       </div>
@@ -20,7 +20,7 @@
         <div class="slot-labels">date</div>
         <div class="slot-labels">month</div>
         <div class="slot-labels">year</div>
-      </div> -->
+      </div>
       <a href="#upcoming-event" class="relative bg-red-500 px-4 py-2 text-white w-32 text-center rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer uppercase">
         more info
       </a>
