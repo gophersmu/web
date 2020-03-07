@@ -2,13 +2,13 @@
   <div>
     <div class="py-10 px-10 text-xl text-gray-800 text-left">
       <div>
-        <h1 id="upcoming-event">Upcoming event</h1>
+        <h1 id="upcoming-event" class="text-4xl font-black font-sans py-4 text-center">Upcoming event</h1>
         <event v-bind="events.upcoming"></event>
       </div>
     </div>
     <div class="blue-gradient text-white py-10 text-xl text-justify">
       <div class="home-intro">
-        <h1 id="about-us">About Us</h1>
+        <h1 id="about-us" class="text-4xl font-black font-sans py-4 text-center">About Us</h1>
         <p>Go is an open source programming language supported by Google.</p>
         <p>The language makes it easy to build simple, reliable, and efficient software.</p>
         <p>We are gophers (Go developers) from the paradise island of Mauritius. A tiny island in the Indian Ocean with loads of sunshine and equally bright minds.</p>
@@ -17,7 +17,7 @@
     </div>
     <div class="py-10 px-10 text-xl text-gray-800 text-left" v-if="events.past.length">
       <div>
-        <h1>Past events</h1>
+        <h1 class="text-4xl font-black font-sans py-4 text-center">Past events</h1>
         <event v-for="(event, i) in events.past" :key="i" v-bind="event"></event>
       </div>
     </div>
@@ -43,10 +43,6 @@ export default {
   max-width: 600px;
   width: 90%;
   margin: 0 auto;
-}
-
-h1 {
-  @apply text-4xl font-black font-sans py-4 text-center;
 }
 
 p,

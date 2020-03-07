@@ -2,9 +2,18 @@ let event2019_12_21 = {
     registerURL: "https://www.meetup.com/GDG-Mauritius/events/266919961/",
     date: "2019-12-21",
     title: "Go: All you ever wanted to know but didn't dare to ask",
-    description: "",
+    description: `
+Our agenda is as follows:
+
+- Keynote (Intro to Go - short presentation)
+- First steps with Go
+- Building web APIs
+- Format: Talk and Code trial; bring your own laptop.
+    
+**Special Guest:** [Natalie Pistunovich](https://twitter.com/nataliepis), GDE for Go
+    `,
     host: "GDG Mauritius",
-    hostURL: "",
+    hostURL: "https://www.meetup.com/GDG-Mauritius",
     venue: "Flying Dodo, Bagatelle",
     venueCode: "QFGW+84"
 };
@@ -21,8 +30,6 @@ We will tackle the following exercises together:
 - Hello World with Golang
 - Introduction to Golang routines
 - Writing a proxy using Golang
-
-The event is free and open to everyone; but registration is mandatory.
 
 **Attendees are requested to bring their own laptops.**
     `,
