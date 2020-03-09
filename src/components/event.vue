@@ -3,7 +3,7 @@
         <div class="lg:w-1/2 flex-col flex justify-center text-center px-10">
         <p class="text-3xl ">
             <span  class="uppercase text-xl"> {{hostingText}}</span> <br />
-            <a class="font-bold" target="_blank" :href="registerURL">&quot;{{title}}&quot;</a>
+            <a class="font-bold" target="_blank" :href="url">&quot;{{title}}&quot;</a>
             <br />
             <strong class="text-xl uppercase">{{formattedDate}}</strong>
             <br/>
@@ -13,7 +13,7 @@
         <div class="lg:w-1/2">
         <span v-html="marked(description)"></span>
         <br/>
-        <a v-if="isActive" class="relative bg-red-500 px-4 py-2 text-white w-32 rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer" target="_blank" :href="registerURL">Book your seat</a>
+        <a v-if="isActive" class="relative bg-red-500 px-4 py-2 text-white w-32 rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer" target="_blank" :href="url">Book your seat</a>
         </div>
     </div>
 </template>
@@ -24,7 +24,7 @@ import marked from "marked";
 
 export default {
     props: {
-        registerURL: String,
+        url: String,
         date: String,
         title: String,
         subtitle: String,

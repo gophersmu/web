@@ -1,5 +1,5 @@
 let event2019_12_21 = {
-    registerURL: "https://www.meetup.com/GDG-Mauritius/events/266919961/",
+    url: "https://www.meetup.com/GDG-Mauritius/events/266919961/",
     date: "2019-12-21",
     title: "Go: All you ever wanted to know but didn't dare to ask",
     description: `
