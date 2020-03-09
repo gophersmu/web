@@ -1,21 +1,23 @@
 <template>
-    <div class="lg:flex">
-        <div class="lg:w-1/2 flex-col flex justify-center text-center px-10">
-            <p class="text-3xl ">
-                <span  class="uppercase text-xl"> {{hostingText}}</span> <br />
-                <a class="font-bold" target="_blank" :href="registerURL">&quot;{{title}}&quot;</a>
-                <br />
-                <strong class="text-xl uppercase">{{formattedDate}}</strong>
-                <br/>
-                <p class="text-gray-600 text-sm">❤️ Thanks to <a :href="hostURL" target="_blank">{{host}}</a> for hosting this event.</p>
-            </p>
-        </div>
-        <div class="lg:w-1/2">
-            <span v-html="marked(description)"></span>
-            <br/>
-            <a v-if="isActive" class="relative bg-red-500 px-4 py-2 text-white w-32 rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer" target="_blank" :href="registerURL">Book your seat</a>
-        </div>
-        <div class="" v-if="pictures">
+    <div class="lg:flex lg:flex-col">
+       <div class="lg:flex container mx-auto">
+           <div class="lg:w-1/2 flex-col flex justify-center text-center lg:text-right px-10">
+               <p class="text-3xl">
+                   <span  class="uppercase text-xl"> {{hostingText}}</span> <br />
+                   <a class="font-bold" target="_blank" :href="registerURL">&quot;{{title}}&quot;</a>
+                   <br />
+                   <strong class="text-xl uppercase">{{formattedDate}}</strong>
+                   <br/>
+               </p>
+               <p class="text-gray-600 text-sm">❤️ Thanks to <a :href="hostURL" target="_blank">{{host}}</a> for hosting this event.</p>
+           </div>
+           <div class="lg:w-1/2">
+               <span v-html="marked(description)"></span>
+               <br/>
+               <a v-if="isActive" class="relative bg-red-500 px-4 py-2 text-white w-32 rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer" target="_blank" :href="registerURL">Book your seat</a>
+           </div>
+       </div>
+        <div class="grid lg:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-10 pt-12" v-if="pictures">
             <gallery :images="pictures.full" :index="pictIndex" @close="pictIndex = null"></gallery>
             <img v-for="(img, i) in pictures.thumbs" :key="i" :src="img" @click="pictIndex = i" class="cursor-pointer thumbnail"/>
         </div>
@@ -60,6 +62,8 @@ export default {
 <style scoped>
 .thumbnail {
     height: 200px;
-    width: auto; 
+    width: 300px;
+    object-fit: cover;
+    object-position: center top;
 }
 </style>
