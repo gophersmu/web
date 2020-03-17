@@ -2,28 +2,32 @@
   <div class="home-hero h-screen flex">
     <div class="backgrounds"></div>
     <div class="backgrounds backgrounds-alternate"></div>
-    <div class="info-section  flex flex-col  justify-center px-10 text-white">
+    <div class="info-section flex flex-col justify-center px-10 text-white">
       <div class="background-holder">&nbsp;</div>
       <div class="relative text-6xl m-auto my-0 md:ml-auto md:mr-0 md:text-right font-bold">
-        <img src="../assets/gophersmu.svg" alt="" class="relative w-32 md:w-64 ml-auto " />
+        <img src="../assets/gophersmu.svg" alt class="relative w-32 md:w-64 ml-auto" />
       </div>
-      <p class="relative text-xl md:text-2xl text-center md:text-right py-5">Join us for <strong>&quot;Hands on GoLang&quot;</strong></p>
+      <!-- <p class="relative text-xl md:text-2xl text-center md:text-right py-5">
+        Join us for
+        <strong>&quot;Hands on GoLang&quot;</strong>
+      </p>-->
       <!-- <p class="relative text-right text-white text-2xl font-bold">21st December 2019</p> -->
       <div class="relative countdown">
-        <div class="slot">SAT</div>
-        <div class="slot">28</div>
-        <div class="slot">MAR</div>
-        <div class="slot">2020</div>
+        <div class="slot">We</div>
+        <div class="slot">❤️</div>
+        <div class="slot">Go</div>
+        <div class="slot">Lang</div>
       </div>
-      <div class="relative countdown p-0">
+      <!-- <div class="relative countdown p-0">
         <div class="slot-labels">day</div>
         <div class="slot-labels">date</div>
         <div class="slot-labels">month</div>
         <div class="slot-labels">year</div>
-      </div>
-      <a href="#upcoming-event" class="relative bg-red-500 px-4 py-2 text-white w-32 text-center rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer uppercase">
-        more info
-      </a>
+      </div>-->
+      <a
+        href="#upcoming-event"
+        class="relative bg-red-500 px-4 py-2 text-white w-32 text-center rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer uppercase"
+      >more info</a>
     </div>
   </div>
 </template>
@@ -63,10 +67,13 @@
 
 @screen md {
   .backgrounds {
-    animation: slideshow var(--duration) var(--easing) infinite, fade var(--fadeDuration) var(--easing) infinite;
+    animation: slideshow var(--duration) var(--easing) infinite,
+      fade var(--fadeDuration) var(--easing) infinite;
   }
   .backgrounds-alternate {
-    animation: slideshow var(--duration) var(--delay-duration) var(--easing) infinite, fade var(--fadeDuration) var(--delay-duration) var(--easing) infinite;
+    animation: slideshow var(--duration) var(--delay-duration) var(--easing)
+        infinite,
+      fade var(--fadeDuration) var(--delay-duration) var(--easing) infinite;
   }
 }
 
@@ -127,7 +134,11 @@
   left: 0;
   top: 0;
   content: " ";
-  background: linear-gradient(0deg, theme(colors.blue.500), theme(colors.aqua.500));
+  background: linear-gradient(
+    0deg,
+    theme(colors.blue.500),
+    theme(colors.aqua.500)
+  );
   z-index: 0;
   opacity: 0.9;
 }
