@@ -7,23 +7,23 @@
       <div class="relative text-6xl m-auto my-0 md:ml-auto md:mr-0 md:text-right font-bold">
         <img src="../assets/gophersmu.svg" alt class="relative w-32 md:w-64 ml-auto" />
       </div>
-      <!-- <p class="relative text-xl md:text-2xl text-center md:text-right py-5">
-        Join us for
-        <strong>&quot;Hands on GoLang&quot;</strong>
-      </p>-->
-      <!-- <p class="relative text-right text-white text-2xl font-bold">21st December 2019</p> -->
+      <p class="relative text-xl md:text-2xl text-center md:text-right py-5">
+        Join us Online for
+        <strong>&quot;Front-end Coders x Gophermu April Online Meetup&quot;</strong>
+      </p>
+      <p class="relative text-right text-white text-2xl font-bold">21st April 2020</p>
       <div class="relative countdown">
-        <div class="slot">We</div>
-        <div class="slot">❤️</div>
-        <div class="slot">Go</div>
-        <div class="slot">Lang</div>
+        <div class="slot">Tues</div>
+        <div class="slot">21</div>
+        <div class="slot">04</div>
+        <div class="slot">2020</div>
       </div>
-      <!-- <div class="relative countdown p-0">
+      <div class="relative countdown p-0">
         <div class="slot-labels">day</div>
         <div class="slot-labels">date</div>
         <div class="slot-labels">month</div>
         <div class="slot-labels">year</div>
-      </div>-->
+      </div>
       <a
         href="#upcoming-event"
         class="relative bg-red-500 px-4 py-2 text-white w-32 text-center rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer uppercase"

@@ -21,7 +21,7 @@ Our agenda is as follows:
 	host: "GDG Mauritius",
 	hostURL: "https://www.meetup.com/GDG-Mauritius",
 	venue: "Flying Dodo, Bagatelle",
-	venueCode: "QFGW+84"
+	venueCode: "QFGW+84",
 };
 
 let event2020_03_28 = {
@@ -57,10 +57,36 @@ Our friends are also advised to take all necessary precautions to stay safe duri
 	host: "MCB Digital Factory",
 	hostURL: "https://digitalfactory.mu/",
 	venue: "MCB Digital Factory",
-	venueCode: "RGQ2+9C Port Louis"
+	venueCode: "RGQ2+9C Port Louis",
+};
+
+let event2020_04_21 = {
+	url: "https://www.meetup.com/frontendcodersmauritius/events/270040148",
+	date: "2020-04-21",
+	title: "Front-end Coders x Gophermu April Online Meetup",
+	status: STATUS_ACTIVE,
+	description: `
+We are teaming up with front-end coders for this online meetup!
+
+Will be presenting:
+- [Sandeep Ramgolam](https://twitter.com/__Sun__)
+- [Cedric Poilly](https://twitter.com/cedpoilly)
+- Jules Michael
+- [Muhammad Yusuf Abdool Satar](https://twitter.com/__fluxy_)
+
+Golang topics to be covered:
+- Go Routines
+- Building a simple meta search
+
+**Format:** Short and Sweet
+    `,
+	host: "Front End Coders",
+	hostURL: "https://www.meetup.com/frontendcodersmauritius",
+	venue: "Online",
+	venueCode: null,
 };
 
 export default {
-	upcoming: event2020_03_28,
-	past: [event2019_12_21]
+	upcoming: event2020_04_21,
+	past: [event2019_12_21, event2020_03_28],
 };

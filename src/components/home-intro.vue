@@ -2,7 +2,10 @@
   <div>
     <div class="py-10 px-10 text-xl text-gray-800 text-left">
       <div>
-        <h1 id="upcoming-event" class="text-4xl font-black font-sans py-4 text-center">Upcoming event</h1>
+        <h1
+          id="upcoming-event"
+          class="text-4xl font-black font-sans py-4 text-center"
+        >Upcoming event</h1>
         <event v-bind="events.upcoming"></event>
       </div>
     </div>
@@ -18,24 +21,28 @@
     <div class="py-10 px-10 text-xl text-gray-800 text-left" v-if="events.past.length">
       <div>
         <h1 class="text-4xl font-black font-sans py-4 text-center">Past events</h1>
-        <event v-for="(event, i) in events.past" :key="i" v-bind="event"></event>
+        <div
+          v-for="(event, i) in events.past"
+          :key="i"
+          :class="{'bottom-line': (i < events.past.length-1)}"
+        >
+          <event v-bind="event"></event>
+        </div>
       </div>
     </div>
   </div>
-  
 </template>
 
 <script>
-
 import events from "../data/events";
 import event from "./event";
 
 export default {
-  components: {event},
+  components: { event },
   data() {
-    return {events};
+    return { events };
   }
-}
+};
 </script>
 
 <style>
@@ -65,6 +72,15 @@ p a {
 }
 
 .blue-gradient {
-  background: linear-gradient(45deg, theme(colors.blue.500), theme(colors.aqua.500));
+  background: linear-gradient(
+    45deg,
+    theme(colors.blue.500),
+    theme(colors.aqua.500)
+  );
+}
+
+.bottom-line {
+  border-bottom: 2px solid #00a3a3;
+  margin: 0 0 10px 0;
 }
 </style>
