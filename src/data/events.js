@@ -76,7 +76,7 @@ Will be presenting:
 
 Golang topics to be covered:
 - Go Routines
-- Building a simple meta search
+- Getting started with telegram bots
 
 **Format:** Short and Sweet
     `,
