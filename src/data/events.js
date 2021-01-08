@@ -72,7 +72,7 @@ Will be presenting:
 - [Sandeep Ramgolam](https://twitter.com/__Sun__)
 - [Cedric Poilly](https://twitter.com/cedpoilly)
 - Jules Michael
-- [Muhammad Yusuf Abdool Satar](https://twitter.com/__fluxy_)
+- [Muhammad Yusuf Abdool Satar](https://fluxy.net)
 
 Golang topics to be covered:
 - Go Routines
@@ -101,7 +101,7 @@ __Agenda:__
 2. Golang GraphQL challenge to a frontend
 3. Server Sent Events, the forgotten protocol
 
-<small>Presenters: [Jules Michael](http://github.com/JulesMike), [Sandeep](https://twitter.com/__Sun__) & [Muhammad Yusuf Abdool Satar](https://twitter.com/__fluxy_)</small>
+<small>Presenters: [Jules Michael](http://github.com/JulesMike), [Sandeep Ramgolam](https://twitter.com/__Sun__) & [Muhammad Yusuf Abdool Satar](https://fluxy.net)</small>
     `,
 	host: "Bocasay Mauritius",
 	hostURL: "https://www.bocasay.com/",
