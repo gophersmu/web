@@ -10,7 +10,7 @@
                 <strong class="text-xl uppercase">{{formattedDate}}</strong>
                 <br/>
                 <p v-if="host" class="text-gray-600 text-sm">
-                    ❤️ Thanks to <a :href="hostURL" target="_blank">{{host}}</a> for hosting this event.
+                    ❤️ Thanks to <a :href="hostURL" target="_blank" rel="external nofollow noopener">{{host}}</a> for hosting this event.
                 </p>
             </p>
         </div>
