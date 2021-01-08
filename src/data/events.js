@@ -92,13 +92,16 @@ let event2021_02_06 = {
 	title: "Golang Meetup",
 	status: STATUS_ACTIVE,
 	description: `
-We will be having bite-sized Golang talks to ease in the new year.
+Bite-sized Golang talks to ease in the new year.
+
 Everyone is welcome!
 
-Agenda:
-1. WTF is Go? (Jules Michael Giovanni)
-2. Golang GraphQL challenge to a frontend (Sandeep Ramgolam)
-3. Server Sent Events, the forgotten protocol (Muhammad Yusuf Abdool Satar)
+__Agenda:__
+1. WTF is Go?
+2. Golang GraphQL challenge to a frontend
+3. Server Sent Events, the forgotten protocol
+
+<small>Presenters: [Jules Michael](http://github.com/JulesMike), [Sandeep](https://twitter.com/__Sun__) & [Muhammad Yusuf Abdool Satar](https://twitter.com/__fluxy_)</small>
     `,
 	host: "Bocasay Mauritius",
 	hostURL: "https://www.bocasay.com/",

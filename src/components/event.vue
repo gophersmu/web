@@ -15,7 +15,7 @@
             </p>
         </div>
         <div class="lg:w-1/2 py-10">
-            <span v-html="marked(description)"></span>
+            <span class="event-description" v-html="marked(description)"></span>
             <br/>
             <a v-if="status === 'active' && url" class="relative bg-red-500 px-4 py-2 text-white w-32 rounded mt-5 ml-auto mr-0 hover:bg-red-600 cursor-pointer" target="_blank" :href="url">
                 Get your seat
@@ -82,3 +82,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.event-description a {
+  /* text-decoration: underline; */
+  color: theme(colors.blue.500);
+}
+</style>
