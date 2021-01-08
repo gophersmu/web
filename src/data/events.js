@@ -87,7 +87,7 @@ Golang topics to be covered:
 };
 
 let event2021_02_06 = {
-	url: "https://www.meetup.com/port-louis-golang-meetup-group/events/275630430/",
+	url: "https://www.meetup.com/gophersmu/events/275630430/",
 	date: "2021-02-06",
 	title: "Golang Meetup",
 	status: STATUS_ACTIVE,
