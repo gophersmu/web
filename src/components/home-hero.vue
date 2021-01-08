@@ -8,15 +8,15 @@
         <img src="../assets/gophersmu.svg" alt class="relative w-32 md:w-64 ml-auto" />
       </div>
       <p class="relative text-xl md:text-2xl text-center md:text-right py-5">
-        Join us Online for
-        <strong>&quot;Front-end Coders x Gophermu April Online Meetup&quot;</strong>
+        Join us Online for our next <br>
+        <strong>Golang Meetup</strong>
       </p>
-      <p class="relative text-right text-white text-2xl font-bold">21st April 2020</p>
+      <p class="relative text-right text-white text-2xl font-bold">6th February 2021</p>
       <div class="relative countdown">
-        <div class="slot">Tues</div>
-        <div class="slot">21</div>
-        <div class="slot">04</div>
-        <div class="slot">2020</div>
+        <div class="slot">Sat</div>
+        <div class="slot">06</div>
+        <div class="slot">02</div>
+        <div class="slot">2021</div>
       </div>
       <div class="relative countdown p-0">
         <div class="slot-labels">day</div>

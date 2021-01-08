@@ -64,7 +64,7 @@ let event2020_04_21 = {
 	url: "https://www.meetup.com/frontendcodersmauritius/events/270040148",
 	date: "2020-04-21",
 	title: "Front-end Coders x Gophermu April Online Meetup",
-	status: STATUS_ACTIVE,
+	status: STATUS_PAST,
 	description: `
 We are teaming up with front-end coders for this online meetup!
 
@@ -86,7 +86,27 @@ Golang topics to be covered:
 	venueCode: null,
 };
 
+let event2021_02_06 = {
+	url: "https://www.meetup.com/port-louis-golang-meetup-group/events/275630430/",
+	date: "2021-02-06",
+	title: "Golang Meetup",
+	status: STATUS_ACTIVE,
+	description: `
+We will be having bite-sized Golang talks to ease in the new year.
+Everyone is welcome!
+
+Agenda:
+1. WTF is Go? (Jules Michael Giovanni)
+2. Golang GraphQL challenge to a frontend (Sandeep Ramgolam)
+3. Server Sent Events, the forgotten protocol (Muhammad Yusuf Abdool Satar)
+    `,
+	host: "Bocasay Mauritius",
+	hostURL: "https://www.bocasay.com/",
+	venue: "Bocasay, Ebène",
+	venueCode: "QF3R+J3 Quatre Bornes",
+};
+
 export default {
-	upcoming: event2020_04_21,
-	past: [event2019_12_21, event2020_03_28],
+	upcoming: event2021_02_06,
+	past: [event2019_12_21, event2020_03_28, event2020_04_21],
 };
