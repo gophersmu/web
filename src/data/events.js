@@ -100,8 +100,20 @@ __Agenda:__
 1. WTF is Go?
 2. Golang GraphQL challenge to a frontend
 3. Server Sent Events, the forgotten protocol
+4. Table Driven Testing
 
-<small>Presenters: [Jules Michael](http://github.com/JulesMike), [Sandeep Ramgolam](https://twitter.com/__Sun__) & [Muhammad Yusuf Abdool Satar](https://fluxy.net)</small>
+<small>
+Presenters:
+
+[Jules Michael](http://github.com/JulesMike)
+
+[Sandeep Ramgolam](https://twitter.com/__Sun__)
+
+[Muhammad Yusuf Abdool Satar](https://fluxy.net)
+
+[Jeshta Bhoyedhur](https://twitter.com/jjeshta)
+
+</small>
     `,
 	host: "Bocasay Mauritius",
 	hostURL: "https://www.bocasay.com/",
