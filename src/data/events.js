@@ -90,7 +90,7 @@ let event2021_02_06 = {
 	url: "https://www.meetup.com/gophersmu/events/275630430/",
 	date: "2021-02-06",
 	title: "Golang Meetup",
-	status: STATUS_ACTIVE,
+	status: STATUS_PAST,
 	description: `
 Bite-sized Golang talks to ease in the new year.
 
@@ -122,6 +122,6 @@ Presenters:
 };
 
 export default {
-	upcoming: event2021_02_06,
-	past: [event2019_12_21, event2020_03_28, event2020_04_21],
+	upcoming: null,
+	past: [event2021_02_06, event2020_04_21, event2020_03_28, event2019_12_21],
 };

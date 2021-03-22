@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="py-10 px-10 text-xl text-gray-800 text-left">
+    <div v-if="events.upcoming" class="py-10 px-10 text-xl text-gray-800 text-left">
       <div>
         <h1
           id="upcoming-event"
