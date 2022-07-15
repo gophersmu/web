@@ -121,7 +121,25 @@ Presenters:
 	venueCode: "QF3R+J3 Quatre Bornes",
 };
 
+let event2022_07_23 = {
+	url: "https://frontend.mu/meetup/37",
+	date: "2022-07-23",
+	title: "Front-end Coders July Meetup",
+	status: STATUS_ACTIVE,
+	description: `
+Gophers.mu is happy to collaborate with Front-End Coders Mauritius in their monthly meetup.
+
+We will be presenting « How to structure a Go project » by [Muhammad Yusuf Abdool Satar](https://fluxy.net)
+
+Be sure to book your seat on the frontend website.
+    `,
+	host: "XEFI",
+	hostURL: "https://www.bocasay.com/",
+	venue: "Ebene Cyber Village",
+	venueCode: "QF5Q+XCM Quatre Bornes",
+};
+
 export default {
-	upcoming: null,
+	upcoming: event2022_07_23,
 	past: [event2021_02_06, event2020_04_21, event2020_03_28, event2019_12_21],
 };
