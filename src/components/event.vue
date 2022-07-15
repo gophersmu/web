@@ -60,10 +60,10 @@ export default {
 
         switch (this.status) {
             case STATUS_ACTIVE:
-                hostingText = "We are hosting an event";
+                hostingText = "We are having an event";
                 break;
             case STATUS_PAST:
-                hostingText = "We hosted an event";
+                hostingText = "We had an event";
                 break;
             case STATUS_SOON:
                 hostingText = "We are working on an event";
