@@ -125,7 +125,7 @@ let event2022_07_23 = {
 	url: "https://frontend.mu/meetup/37",
 	date: "2022-07-23",
 	title: "Front-end Coders July Meetup",
-	status: STATUS_ACTIVE,
+	status: STATUS_PAST,
 	description: `
 Gophers.mu is happy to collaborate with Front-End Coders Mauritius in their monthly meetup.
 
@@ -139,7 +139,20 @@ Be sure to book your seat on the frontend website.
 	venueCode: "QF5Q+XCM Quatre Bornes",
 };
 
+let event2022_11_22 = {
+	url: "https://conference.mscc.mu/agenda/303280",
+	date: "2022-10-22",
+	title: "Go: from scratch to prod",
+	status: STATUS_PAST,
+	description: `Gophers.mu participating in Developers Conference 2022 with a Crash course to get acquainted with Golang development.
+	Together we will build, test and deploy a web application using Golang.`,
+	host: "MSCC",
+	hostURL: "https://www.mscc.mu/",
+	venue: "Caudan Arts Center, Port Louis",
+	venueCode: "RFQX+68 Port Louis",
+};
+
 export default {
-	upcoming: event2022_07_23,
-	past: [event2021_02_06, event2020_04_21, event2020_03_28, event2019_12_21],
+	upcoming: null,
+	past: [event2021_02_06, event2020_04_21, event2020_03_28, event2019_12_21, event2022_07_23, event2022_11_22],
 };
