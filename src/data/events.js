@@ -154,5 +154,12 @@ let event2022_11_22 = {
 
 export default {
 	upcoming: null,
-	past: [event2021_02_06, event2020_04_21, event2020_03_28, event2019_12_21, event2022_07_23, event2022_11_22],
+	past: [
+		event2022_11_22,
+		event2022_07_23,
+		event2021_02_06,
+		event2020_04_21,
+		event2020_03_28,
+		event2019_12_21,
+	],
 };
