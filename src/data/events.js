@@ -152,9 +152,35 @@ let event2022_11_22 = {
 	venueCode: "RFQX+68 Port Louis",
 };
 
+let event2025_06_14 = {
+	url: "https://conference.mscc.mu/agenda/303280",
+	date: "2025-06-14",
+	title: "Go: Getting back together",
+	status: STATUS_PAST,
+	description: `Getting back together after a long hiatus, to talk about all things Go.`,
+	// host: "",
+	// hostURL: "",
+	venue: "Workshop17, Telfair",
+	venueCode: "QG96+JF Moka",
+};
+
+let event2026_05_21 = {
+	url: "https://ocgroups.dev/cncf/group/58jha3y/event/haajzw4",
+	date: "2026-05-21",
+	title: "Cloud Native Go Workshop",
+	status: STATUS_SOON,
+	description: `Gophers Mauritius collaborating with CNCF to bring you a slice of Go goodness. Together we will build, test and deploy.`,
+	host: "CloudNative Mauritius",
+	hostURL: "https://cloudnativemauritius.com/",
+	venue: "Caudan Arts Center, Port Louis",
+	venueCode: "QG96+PF Moka",
+};
+
 export default {
-	upcoming: null,
+	upcoming: event2026_05_21,
 	past: [
+		event2026_05_21,
+		event2025_06_14,
 		event2022_11_22,
 		event2022_07_23,
 		event2021_02_06,
